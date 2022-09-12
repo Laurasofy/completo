@@ -1,0 +1,13 @@
+img{
+    border:1px solid cyan;
+    image-rendering:pixelated;
+    width: 400px;
+    height: 400px;
+
+}
+#container{
+    width: 400px;
+    height: 400px;
+    
+}
+body{background-color: rgb(195, 225, 208);}

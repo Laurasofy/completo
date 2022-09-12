@@ -1,0 +1,76 @@
+*{
+   padding: 0;
+   margin:0 ;
+}
+  /*selector por atributo*/
+  [class ]{
+    background-color: antiquewhite;
+  }
+
+  a[href] {/*se aplica el estilo a los links*/
+  text-align:center;
+  margin-left:2%;
+  color: aqua;
+  }
+  /*utilizaremos sufijos*/
+  a[href$="com"]{
+    color: blue;
+    
+  }
+  /*utilizaremos prefijos */
+  article[class^="pre"]{
+    margin: top 25px; 
+  }
+
+  /*conteniendo la palabra*/
+
+  p[class*="rra"]{
+ background-color: blueviolet;
+
+
+  }
+/*modificar el hermano de
+  elemento hermano seleccionado,elemento hermano siguiente que 
+  se va afectar 
+ el + modifica al siguiente numero hermanoo
+*/
+.subtitulo + article{
+
+    padding: 10px;
+    margin: top 5px; 
+    background-color: yellow;
+}
+
+.hermanos ~ p{
+padding: 10px;
+border-color: black;
+text-align: center;
+
+}
+
+/*desendiente*/
+.content.subtitulo{
+    background-color: red;
+}
+
+
+/*
+h1 ;.articulo1,#segundoParrafo{
+    text-align: center;
+}
+*/
+
+/*selector multiple*/
+
+.parrafo.aside{
+    font: size 25px; 
+    margin: 3px; 
+    padding: 3px;
+}
+
+
+/*selectro hijos directos*/
+.ubicacion>.press{
+    background-color: darkorchid;
+    font-size: 22px;
+}

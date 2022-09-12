@@ -1,0 +1,45 @@
+ 
+ /*
+ ¿Que es css? (cascading style sheets)
+ Es un lenguaje aliado a html que nos permite formatear de una maner agradable el ojo humano , los documentos Html
+ es decir que es un lenguaje de estilos para documentos html
+ la estructura basica para trabajar en css es 
+selector{
+    atributo:valor;
+}
+selector:selecciona que elemento se va a modificar
+
+1 selector por etiqueta : cambia el estilo de todas las etiquetas
+2 selector por clase: cambia o modifica el estilo del elemento que use en su atributo class  el estilo
+3 . selector por id:cambia o modifica el etstilo del modelo que selecciona el id
+4. selector universal : que es el *
+ */
+ h1{
+    color:darkred;
+    background-color: bisque ;
+    text-align: center;
+    padding: 10px , 20px;
+    margin: 10px;
+}
+
+ 
+ h2{
+    color : rebeccapurple;
+    background-color:darkgray ;
+    text-align: center;
+ }
+
+.articulo1{
+ font-family:'courier New ',courier,monospace;
+ font-size: 20px;
+ background-color:bisque;
+ padding :0px 0px 10px 20px;
+}
+
+
+#segundoParrafo{
+    border-radius:5px;
+    background-color:rbg(132,92,44);
+    color:blue;
+    padding:5px;
+}
